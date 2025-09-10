@@ -7,10 +7,21 @@
     "android": {
       "package": "com.yourname.paramedicassistant",
       "permissions": ["RECORD_AUDIO"],
-      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#ffffff" }
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
     },
-    "ios": { "supportsTablet": false },
+    "ios": {
+      "supportsTablet": false
+    },
     "plugins": [],
-    "extra": {}
+    "extra": {
+      "eas": {
+        "projectId": "c345dd05-8f27-4c34-8cf5-919eb77bce97"
+      }
+    },
+    "sdkVersion": "51.0.0",
+    "platforms": ["ios", "android"]
   }
 }
