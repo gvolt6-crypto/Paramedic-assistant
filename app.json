@@ -4,24 +4,32 @@
     "slug": "medic-assistanttt",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
     "android": {
       "package": "com.yourname.paramedicassistant",
       "permissions": ["RECORD_AUDIO"],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "ios": {
-      "supportsTablet": false
-    },
-    "plugins": [],
     "extra": {
       "eas": {
-        "projectId": "c345dd05-8f27-4c34-8cf5-919eb77bce97"
+        "projectId": "YOUR_EAS_PROJECT_ID"
       }
-    },
-    "sdkVersion": "51.0.0",
-    "platforms": ["ios", "android"]
+    }
   }
 }
